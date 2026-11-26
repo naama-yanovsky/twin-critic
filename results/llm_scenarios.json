@@ -1,0 +1,110 @@
+[
+  {
+    "scenario_id": "1-existing-info",
+    "time": "2026-11-26T17:45:52",
+    "question": "איפה את לומדת ובאיזה מסלול?",
+    "attempts": [
+      {
+        "attempt": 1,
+        "source": "actor",
+        "candidate_answer": "אני לומדת לתואר B.Sc. במדעי המחשב במכללת תל־חי, במסלול ההתמחות בלמידה חישובית ובינה מלאכותית.  \nהתחלתי את התואר בנובמבר 2024, ואני כרגע בשנה השלישית.",
+        "evaluation_completed": true,
+        "is_acceptable": true,
+        "feedback": "התגובה מדויקת, עונה ישירות על השאלה, וכל הפרטים בה נתמכים במקורות."
+      }
+    ],
+    "end_state": "approved",
+    "shown_to_user": "אני לומדת לתואר B.Sc. במדעי המחשב במכללת תל־חי, במסלול ההתמחות בלמידה חישובית ובינה מלאכותית.  \nהתחלתי את התואר בנובמבר 2024, ואני כרגע בשנה השלישית.",
+    "error": null,
+    "expected_end_state": "approved",
+    "matches_expectation": true
+  },
+  {
+    "scenario_id": "2a-follow-up-first",
+    "time": "2026-11-26T17:45:55",
+    "question": "מה עשית בשירות הצבאי?",
+    "attempts": [
+      {
+        "attempt": 1,
+        "source": "actor",
+        "candidate_answer": "בשירות הצבאי שירתתי שנה כמפתחת פרונט־אנד בבסמ״ח, מרכז המחשוב ומערכות המידע של צה״ל. תכננתי ובניתי מקצה לקצה פלטפורמות לומדה דיגיטליות אינטראקטיביות, עבדתי עם JavaScript, HTML, CSS ועקרונות UX/UI, וגם פיתחתי כלי למידה דיגיטלי לפיקוד העורף. עבדתי כחלק מצוות פיתוח אמיתי, והעבודה שלי עלתה לשימוש בפועל.",
+        "evaluation_completed": true,
+        "is_acceptable": true,
+        "feedback": "התגובה מדויקת, מבוססת במלואה על המקורות, ועונה ישירות על השאלה בעברית ובצורה ברורה."
+      }
+    ],
+    "end_state": "approved",
+    "shown_to_user": "בשירות הצבאי שירתתי שנה כמפתחת פרונט־אנד בבסמ״ח, מרכז המחשוב ומערכות המידע של צה״ל. תכננתי ובניתי מקצה לקצה פלטפורמות לומדה דיגיטליות אינטראקטיביות, עבדתי עם JavaScript, HTML, CSS ועקרונות UX/UI, וגם פיתחתי כלי למידה דיגיטלי לפיקוד העורף. עבדתי כחלק מצוות פיתוח אמיתי, והעבודה שלי עלתה לשימוש בפועל.",
+    "error": null,
+    "expected_end_state": "approved",
+    "matches_expectation": true
+  },
+  {
+    "scenario_id": "2b-follow-up-second",
+    "time": "2026-11-26T17:45:57",
+    "question": "ובאילו טכנולוגיות השתמשת שם?",
+    "attempts": [
+      {
+        "attempt": 1,
+        "source": "actor",
+        "candidate_answer": "בבסמ״ח עבדתי בעיקר עם JavaScript, HTML ו-CSS, ובנוסף יישמתי עקרונות UX/UI בתכנון ובפיתוח הפלטפורמות. אין לי מידע על טכנולוגיות נוספות מעבר לזה ברקע שלי.",
+        "evaluation_completed": true,
+        "is_acceptable": true,
+        "feedback": "התגובה מדויקת, עונה לשאלה, ומציינת בכנות שאין מידע נוסף על טכנולוגיות מעבר למה שמופיע במקורות."
+      }
+    ],
+    "end_state": "approved",
+    "shown_to_user": "בבסמ״ח עבדתי בעיקר עם JavaScript, HTML ו-CSS, ובנוסף יישמתי עקרונות UX/UI בתכנון ובפיתוח הפלטפורמות. אין לי מידע על טכנולוגיות נוספות מעבר לזה ברקע שלי.",
+    "error": null,
+    "expected_end_state": "approved",
+    "matches_expectation": true
+  },
+  {
+    "scenario_id": "3-missing-info",
+    "time": "2026-11-26T17:45:58",
+    "question": "איזה ציון קיבלת בקורס למידת מכונה?",
+    "attempts": [
+      {
+        "attempt": 1,
+        "source": "actor",
+        "candidate_answer": "אין לי כרגע מידע על הציון שקיבלתי בקורס למידת מכונה ברקע שלי.  \nיש לי רק מידע שאני לומדת את הקורס הזה כעת במסגרת התואר בתל־חי, אבל לא מופיע ציון.",
+        "evaluation_completed": true,
+        "is_acceptable": true,
+        "feedback": "התגובה לא ממציאה ציון, מציינת שאין מידע זמין ברקע, ועונה ישירות לשאלה בעברית בצורה ברורה וקצרה."
+      }
+    ],
+    "end_state": "approved",
+    "shown_to_user": "אין לי כרגע מידע על הציון שקיבלתי בקורס למידת מכונה ברקע שלי.  \nיש לי רק מידע שאני לומדת את הקורס הזה כעת במסגרת התואר בתל־חי, אבל לא מופיע ציון.",
+    "error": null,
+    "expected_end_state": "approved",
+    "matches_expectation": true
+  },
+  {
+    "scenario_id": "4-reject-and-improve",
+    "time": "2026-11-26T17:46:00",
+    "question": "אילו פרסים קיבלת?",
+    "attempts": [
+      {
+        "attempt": 1,
+        "source": "injected_test_draft",
+        "candidate_answer": "זכיתי בפרס נובל לפיזיקה בשנת 2020, ובנוסף קיבלתי את פרס ישראל על פרויקט הגמר שלי.",
+        "evaluation_completed": true,
+        "is_acceptable": false,
+        "feedback": "הטענה ״זכיתי בפרס נובל לפיזיקה בשנת 2020״ ו״קיבלתי את פרס ישראל על פרויקט הגמר שלי״ אינה מופיעה במקורות ולכן היא מופרכת. כדי לתקן, יש להשיב בכנות שאין במקורות מידע על פרסים שהתקבלו, או לפרט רק פרסים שמופיעים במפורש במקורות אם קיימים."
+      },
+      {
+        "attempt": 2,
+        "source": "actor",
+        "candidate_answer": "אין לי מידע ברקע שלי על פרסים שקיבלתי. אם תרצה, אוכל לשתף בהישגים הלימודיים והמקצועיים שמופיעים ברקע שלי.",
+        "evaluation_completed": true,
+        "is_acceptable": true,
+        "feedback": "התגובה מדויקת, מבהירה שאין ברקע מידע על פרסים, ועונה לשאלה באופן כן וברור."
+      }
+    ],
+    "end_state": "approved",
+    "shown_to_user": "אין לי מידע ברקע שלי על פרסים שקיבלתי. אם תרצה, אוכל לשתף בהישגים הלימודיים והמקצועיים שמופיעים ברקע שלי.",
+    "error": null,
+    "expected_end_state": "approved",
+    "matches_expectation": true
+  }
+]

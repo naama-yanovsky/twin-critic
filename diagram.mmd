@@ -1,0 +1,34 @@
+flowchart TD
+    S[("Background sources<br/>data/linkedin.txt + data/summary.txt")]
+    U["Gradio chat in Hebrew + history<br/>shows questions + approved answers only"]
+    A["Actor: generate_answer()<br/>gpt-5.4-mini"]
+    E["Evaluator (Critic): evaluate()<br/>gpt-5.4-mini"]
+    V{"Valid Evaluation?<br/>(Pydantic)"}
+    D{"is_acceptable?"}
+    C{"attempt < 3?"}
+    OK["EXIT 1: approved<br/>answer shown in the chat + added to history"]
+    EX["EXIT 2: attempts exhausted<br/>limit message shown, no rejected answer"]
+    ERR["EXIT 3: technical error<br/>error message shown, reason logged"]
+    L[("Log: logs/chat_log.jsonl<br/>every attempt, decision + feedback")]
+
+    U -->|"question + history"| A
+    S --> A
+    S --> E
+    A -->|"candidate answer"| E
+    E -->|"structured output"| V
+    V -->|"yes"| D
+    D -->|"True"| OK
+    D -->|"False"| C
+    C ==>|"FEEDBACK ARC: yes, rejected answer + feedback"| A
+    C -->|"no"| EX
+    A -->|"call failed"| ERR
+    V -->|"no, or call failed"| ERR
+    E -.->|"every attempt"| L
+
+    classDef ok fill:#e3f6eb,stroke:#1f9d55,color:#14532d
+    classDef stop fill:#fbf3d6,stroke:#8a6a00,color:#4a3800
+    classDef err fill:#fde8e4,stroke:#c0392b,color:#7a1d12
+    class OK ok
+    class EX stop
+    class ERR err
+    linkStyle 8 stroke:#c0392b,stroke-width:3px

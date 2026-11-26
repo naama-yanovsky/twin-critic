@@ -1,0 +1,58 @@
+[
+  {
+    "scenario_id": "5-attempts-exhausted [MOCK]",
+    "time": "2026-11-26T17:46:03",
+    "question": "מה התחביבים שלך?",
+    "attempts": [
+      {
+        "attempt": 1,
+        "source": "actor",
+        "candidate_answer": "התחביבים שלי הם התעמלות, ריקוד, שירה וקריאה.  \nאם תרצה, אני יכולה גם לספר קצת יותר על מה אני אוהבת לעשות בזמני הפנוי.",
+        "evaluation_completed": true,
+        "is_acceptable": false,
+        "feedback": "[MOCK] Rejected on purpose to test the attempt limit."
+      },
+      {
+        "attempt": 2,
+        "source": "actor",
+        "candidate_answer": "התחביבים שלי הם התעמלות, ריקוד, שירה וקריאה.",
+        "evaluation_completed": true,
+        "is_acceptable": false,
+        "feedback": "[MOCK] Rejected on purpose to test the attempt limit."
+      },
+      {
+        "attempt": 3,
+        "source": "actor",
+        "candidate_answer": "התחביבים שלי הם התעמלות, ריקוד, שירה וקריאה.",
+        "evaluation_completed": true,
+        "is_acceptable": false,
+        "feedback": "[MOCK] Rejected on purpose to test the attempt limit."
+      }
+    ],
+    "end_state": "attempts_exhausted",
+    "shown_to_user": "⚠️ לא התקבלה תשובה מאושרת במסגרת מגבלת שלושת הניסיונות. אפשר לנסח את השאלה אחרת.",
+    "error": null,
+    "expected_end_state": "attempts_exhausted",
+    "matches_expectation": true
+  },
+  {
+    "scenario_id": "extra-technical-error [MOCK]",
+    "time": "2026-11-26T17:46:05",
+    "question": "מה התחביבים שלך?",
+    "attempts": [
+      {
+        "attempt": 1,
+        "source": "actor",
+        "candidate_answer": "התחביבים שלי הם התעמלות, ריקוד, שירה וקריאה.  \nאם תרצה, אני יכול/ה גם לספר קצת איך הם משתלבים אצלי עם הלימודים והעבודה.",
+        "evaluation_completed": false,
+        "is_acceptable": null,
+        "feedback": null
+      }
+    ],
+    "end_state": "technical_error",
+    "shown_to_user": "⚠️ אירעה שגיאה טכנית, ולכן לא הוצגה תשובה. הסיבה נשמרה ביומן הבדיקה.",
+    "error": "[MOCK] Evaluator output is not a valid Evaluation: Input should be a valid boolean, unable to interpret input",
+    "expected_end_state": "technical_error",
+    "matches_expectation": true
+  }
+]

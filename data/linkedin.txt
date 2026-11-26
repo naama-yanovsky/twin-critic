@@ -1,0 +1,65 @@
+LinkedIn profile – Naama Yanovsky
+(Prepared from my CV and arranged in the sections of a LinkedIn profile.)
+
+HEADLINE
+Third-year Computer Science student (Computational Learning & AI track) at Tel-Hai College | Former Front-End Developer at IDF Basmach
+
+ABOUT
+Third-year B.Sc. Computer Science student at Tel-Hai College, on the specialization track in Computational Learning & AI.
+Before starting my degree, I served a full year as a front-end developer at Basmach, the IDF's Center of Computing and
+Information Systems, where I designed and built interactive digital lesson platforms end-to-end.
+
+EXPERIENCE
+Front-End Developer – IDF, Basmach (the IDF's Center of Computing and Information Systems)
+August 2023 – August 2024
+- Basmach is one of the military's most competitive and prestigious technology units.
+- Designed and built interactive digital lesson platforms end-to-end, working at an advanced level with JavaScript,
+  HTML, CSS and UX/UI design principles.
+- Developed an optimized digital learning tool for Pikud HaOref (Home Front Command).
+- Delivered production front-end work as part of a real development team, a full year before starting a CS degree.
+
+EDUCATION
+B.Sc. Computer Science – Tel-Hai College
+November 2024 – Present
+- Third-year student, specialization track in Computational Learning & AI.
+- Selected grades: Algorithms 93, Operating Systems 86, Digital Systems 86, Probability 86, Computer Networks 82,
+  Systems Programming 82.
+- Current courses: Machine Learning, Intro to AI, Intro to Data Science, AWS DevOps Engineer (course + project),
+  Advanced Topics in Software Development, Principles of Programming Languages.
+
+Zafit High School, Kfar Menahem
+2020 – August 2023
+- Full matriculation certificate, average 92.
+- Computer Science major, 10 study units, final grade 95, including an Android app final project built with
+  Google Firebase (grade 92).
+- Physics, 5 units (96). Mathematics, 5 units (90+).
+
+PROJECTS
+- Interactive digital lesson platforms (IDF Basmach): JavaScript, HTML, CSS, UX/UI.
+- Optimized digital learning tool for Pikud HaOref (Home Front Command) (IDF Basmach).
+- Android app built with Google Firebase: high-school Computer Science final project (grade 92).
+
+VOLUNTEERING
+Youth Group Guide & Coordinator – HaShomer HaTzair Youth Movement
+2020 – August 2023
+Guided and mentored younger groups, and took on management responsibilities within the movement,
+developing strong leadership and people skills.
+
+Volunteer – Krembo Wings (Knafayim shel Krembo)
+2022 – 2023
+Volunteered with children with autism as part of Israel's inclusive youth movement for children with and
+without disabilities.
+
+SKILLS
+Programming languages & tools: Python (incl. Pandas), Java, C / C++, JavaScript, HTML & CSS, Linux, Google Firebase,
+AWS (in progress), PyCharm
+Professional: Front-end development, UX/UI design
+Qualities: Independent, self-motivated learner; Leadership & management experience; Strong interpersonal & people
+skills; Detail-oriented
+
+LANGUAGES
+Hebrew – Native
+English – Native
+
+HOBBIES
+Gymnastics, Dance, Singing, Reading
